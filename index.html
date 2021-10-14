@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>homewwork-42-to-do-list</title>
+  <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+</head>
+<body>
+  <main>
+    <div class="container">
+      <form class="m-auto mt-5 w-50 js-form" action="#" method="POST">
+        <input class="w-50 js-input" type="text" placeholder="write list..." autocomplete="off" required aria-label="write list">
+        <button class="w-25" type="submit">Add</button>
+
+        <label for="checkbox">From top to bottom</label>
+        <input class="js-unshift-input" type="checkbox" name="checkbox" id="checkbox">
+      </form>
+
+      <ul class="js-list"></ul>
+    </div>
+  </main>
+
+  <script src="./bootstrap/js/bootstrap.min.js"></script>
+  <script src="./js/utils.js"></script>
+  <script src="./js/script.js"></script>
+</body>
+</html>
